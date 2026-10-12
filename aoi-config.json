@@ -60,6 +60,6 @@
       "./data/teak/region_2.geojson"
     ],
     "regionStatisticsGeoJson": "./data/teak/region_statistics.geojson",
-    "cameraHeight": 900
+    "cameraHeight": 1800
   }
 }
