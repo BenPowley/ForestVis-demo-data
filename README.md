@@ -18,6 +18,7 @@ x 321366–321666, y 4097250–4097550), split into three 100 m wide areas
 | `teak/ndvi.tif` | 1 m NDVI |
 | `teak/aerial.tif` | 10 cm RGB orthophoto |
 | `teak/color_categorization.qml` | Instance colour palette |
+| `teak/base/base_<E>_<N>.copc.laz` | Context layer: the 3 × 3 km of 1 km NEON tiles around the crop (320000–322000 E, 4096000–4098000 N), noise removed, −3 to 75 m above ground, Poisson-thinned to about 2 points/m² (17.4 M points) |
 
 ## Sources and processing
 
