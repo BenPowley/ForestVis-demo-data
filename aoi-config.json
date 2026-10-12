@@ -1,0 +1,55 @@
+{
+  "TEAK": {
+    "name": "Lower Teakettle (NEON TEAK), Sierra Nevada, California",
+    "crs": {
+      "code": "EPSG:32611",
+      "proj4": "+proj=utm +zone=11 +datum=WGS84 +units=m +no_defs +type=crs"
+    },
+    "copcSourceUrl": "./data/teak/teak.copc.laz",
+    "copcBase": [],
+    "ndviProjection": "EPSG:32611",
+    "minimapDefaultLayerMapping": {
+      "NDVI": "AvgNDVI",
+      "GNDVI": "AvgGNDVI",
+      "LCI": "AvgLCI",
+      "NDRE": "AvgNDRE",
+      "OSAVI": "AvgOSAVI",
+      "Height": "Height",
+      "Elevation": "",
+      "RGB": "",
+      "Color": "",
+      "PredInstance": "PredInstan"
+    },
+    "aerialImage": [
+      { "url": "./data/teak/aerial.tif" },
+      { "url": "./data/teak/aerial.tif" },
+      { "url": "./data/teak/aerial.tif" }
+    ],
+    "ndviSource": [
+      { "url": "./data/teak/ndvi.tif" },
+      { "url": "./data/teak/ndvi.tif" },
+      { "url": "./data/teak/ndvi.tif" }
+    ],
+    "instanceZFilter": [
+      "./data/teak/instance-z-filter.tif",
+      "./data/teak/instance-z-filter.tif",
+      "./data/teak/instance-z-filter.tif"
+    ],
+    "index-to-area-name": {
+      "0": "West",
+      "1": "Centre",
+      "2": "East"
+    },
+    "qmlColorUrl": "./data/teak/color_categorization.qml",
+    "treeCentroidsMetadata": "./data/teak/tree_centroids_umap_metadata.json",
+    "treeCentroidsGeoJson": "./data/teak/tree_centroids_umap.geojson",
+    "treeCentroidsUMAPMetadata": "./data/teak/tree_centroids_umap_metadata.json",
+    "regionBoundingGeoJson": [
+      "./data/teak/region_0.geojson",
+      "./data/teak/region_1.geojson",
+      "./data/teak/region_2.geojson"
+    ],
+    "regionStatisticsGeoJson": "./data/teak/region_statistics.geojson",
+    "cameraHeight": 700
+  }
+}
