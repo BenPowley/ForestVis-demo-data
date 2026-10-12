@@ -6,7 +6,17 @@
       "proj4": "+proj=utm +zone=11 +datum=WGS84 +units=m +no_defs +type=crs"
     },
     "copcSourceUrl": "./data/teak/teak.copc.laz",
-    "copcBase": [],
+    "copcBase": [
+      "./data/teak/base/base_320000_4096000.copc.laz",
+      "./data/teak/base/base_321000_4096000.copc.laz",
+      "./data/teak/base/base_322000_4096000.copc.laz",
+      "./data/teak/base/base_320000_4097000.copc.laz",
+      "./data/teak/base/base_321000_4097000.copc.laz",
+      "./data/teak/base/base_322000_4097000.copc.laz",
+      "./data/teak/base/base_320000_4098000.copc.laz",
+      "./data/teak/base/base_321000_4098000.copc.laz",
+      "./data/teak/base/base_322000_4098000.copc.laz"
+    ],
     "ndviProjection": "EPSG:32611",
     "minimapDefaultLayerMapping": {
       "NDVI": "AvgNDVI",
